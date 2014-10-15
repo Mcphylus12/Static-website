@@ -1,0 +1,21 @@
+#comments h1{
+
+}
+
+#comments section{
+    word-wrap: break-word;
+    border: 2px solid blue;
+    margin: 8px 10px
+}
+
+#comments section h4{
+    text-align: left;
+    padding: 5px 0;
+    font-family: Tahoma;
+    margin-bottom: 10px;
+    border-bottom: 1peex solid black;
+}
+
+#comments section p{
+    text-align: left;;
+}

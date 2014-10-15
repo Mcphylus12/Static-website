@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align: left;
+    font: bold x-large Tahoma;
+}
+
+h2{
+    text-align: left;
+    font: bold large Tahoma;
+}
+
+body{
+    text-align: center; /*keep margin on sides*/
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    overflow: inherit
+}
+
+nav ul li{
+    margin:1px;
+    border-right: 1px solid black;
+    float:left;
+    height: inherit;
+    vertical-align: middle;
+    width:24.5%;/*keep all the nav elements on one line*/
+    text-align: center;
+    background-color: #0f0f0f;
+    transition: text-shadow 0.2s linear 0s;
+    -webkit-transition: text-shadow 0.2s linear 0s;
+}
+
+nav ul li:last-child{
+    border: none;
+}
+
+nav ul li:hover{
+    text-shadow: 0 0 0.2em #fff, 0 0 0.2em #fff, 0 0 0.2em #fff;
+    transition: text-shadow 0.2s linear 0s;
+    -webkit-transition: text-shadow 0.2s linear 0s;
+}
+
+nav ul li a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Tahoma;
+
+
+}
+
+#mid_content{
+    color: white;
+    padding: 50px;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    width: 80%;
+    height: auto;
+    bottom: 20px;
+    overflow: hidden;
+
+}
+
+#mid_content > header{
+
+}
+
+footer{
+    border-top: 1px solid black;
+    width: 100%;
+    position: fixed;
+    clear: both;
+    bottom: 0;
+    height: 3ex;
+    background-color: transparent;
+    color: white;
+}
