@@ -4,17 +4,28 @@
     height: 100%;
 }
 
-.halfblock{
+#gmapblock{
     width: 100%;
     height:40%;
     max-height: 400px;
     overflow: hidden;
     display: inline-block
 }
-.quarterblock{
-    width: 48%;
-    height: 40%;
-    max-height: 400px;
+
+.halfblock{
+    width: 100%;
+    height:40%;
     overflow: hidden;
     display: inline-block
+}
+
+.halfblock section{
+    width: 49%;
+    min-height: 200px;
+    display: inline-block;
+
+}
+
+.halfblock section p{
+    text-align: left
 }
