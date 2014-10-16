@@ -2,6 +2,24 @@
 
 }
 
+#addComment{
+    padding: 10px;
+    text-align: left;
+}
+
+#addComment h2{
+    padding-bottom: 30px;
+}
+
+#addComment textarea{
+    margin-top: 10px;
+}
+
+#addComment button{
+    width: 80px;
+    padding: 5px auto;
+}
+
 #comments section{
     word-wrap: break-word;
     border: 2px solid blue;

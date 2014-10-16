@@ -3,8 +3,15 @@
     display:block;
 }
 
+.quarterblock{
+    width: 48%;
+    height: 40%;
+    overflow: hidden;
+    display: inline-block
+}
+
 #main_image img{
-    width: 40%;
+    width: 100%;
     float: left;
     border: 2px solid black;
     border-radius: 20px;
@@ -12,5 +19,5 @@
 
 #top_comment{
     float: right;
-    width: 40%;
+    width: 100%;
 }
