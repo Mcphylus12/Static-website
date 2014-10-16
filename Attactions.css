@@ -1,0 +1,20 @@
+#gmap{
+
+    width: 100%;
+    height: 100%;
+}
+
+.halfblock{
+    width: 100%;
+    height:40%;
+    max-height: 400px;
+    overflow: hidden;
+    display: inline-block
+}
+.quarterblock{
+    width: 48%;
+    height: 40%;
+    max-height: 400px;
+    overflow: hidden;
+    display: inline-block
+}
