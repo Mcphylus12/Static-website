@@ -17,6 +17,7 @@ body{
     text-align: center; /*keep margin on sides*/
     background-image: url(bg.jpg);
     background-position: center;
+    background-size: 100%;
     background-repeat: repeat-y;
 
 }
