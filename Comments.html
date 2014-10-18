@@ -4,53 +4,39 @@
 <html lang="en"> <!-- Lets browser knows we are using english as default in this webpage -->.
 <head>
     <meta http-equiv="content-type" content="text/html" charset="utf-8" />
-  <title>website content</title>
-  <link rel="stylesheet" href="main.css" /><!-- add our styling sheet -->
-  <link rel="stylesheet" href="Comments.css" /><!-- add sheet for the comment page -->
-
+    <title>website content</title>
+    <link rel="stylesheet" href="main.css" /><!-- add our styling sheet -->
+    <link rel="stylesheet" href="Comments.css" /><!-- add sheet for the comment page -->
     <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
     <script type="text/javascript" src="Comments.js"></script>
-
 </head>
 <body onload="showCom()">
     <div id="big_wrapper">
-    <nav>
-    <ul> <!-- nav bar -->
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="Gallery.html">Gallery</a></li>
-      <li><a href="Comments.html">Comments</a></li>
-      <li><a href="Attractions.html">Attractions</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-    </ul>
-  </nav>
-    <div id="mid_content">
-
-    <div id="addComment">
-       <h2>Add a Comment</h2>
-        Name: <input id="namebox" type="text" name="uname"/>
-        <br />
-        <textarea id="textbox" rows="6" cols="50" name="ucomment" ></textarea>
-        <br />
-        <button type="submit" onclick="submitCom()">Submit</button>
-        <button type="reset" onclick="clearCom()">Clear</button>
-
-
-        <form name="Comment">
-
-
-
-        </form>
-
-    </div>
-
- <div id="comments"><!-- list of comments -->
-
-    </div>
-    </div>
-
-      <footer><!-- Footer comment stuff -->
-    small business copyright stuff
-    </footer>
+        <nav>
+            <ul> <!-- nav bar -->
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Comments.html">Comments</a></li>
+                <li><a href="Attractions.html">Attractions</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mid_content">
+            <div id="addComment">
+                <h2>Add a Comment</h2>
+                Name: <input id="namebox" type="text" name="uname"/>
+                <br />
+                <textarea id="textbox" rows="6" cols="50" name="ucomment" ></textarea>
+                <br />
+                <button type="submit" onclick="submitCom()">Submit</button>
+                <button type="reset" onclick="clearCom()">Clear</button>
+            </div>
+            <div id="comments"><!-- list of comments -->
+            </div>
         </div>
+        <footer><!-- Footer comment stuff -->
+        small business copyright stuff
+        </footer>
+    </div>
 </body>
 </html>
