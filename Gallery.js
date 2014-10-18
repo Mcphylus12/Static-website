@@ -1,28 +1,26 @@
 
-function lightbox(e) {
-    "use strict";
+function lightbox(e) {//this function dipays a larger image poistioned on top of the rest fo the page
+    "use strict";//Security
 
-    var src = e.src;
-    console.log('src done');
+    var src = e.src;//get the source of the image that was clicked
     var lighthtml = '<div id="lightbox" onclick="closelightbox()">' +
         '<p>Click to close</p>' +
         '<div id="content">' +
         '<img src="' + src + '" />' +
         '</div>' +
-        '</div>';
+        '</div>';//The Lightbox tags need to show the larger image
 
-    console.log('lighthtml done');
-    if($('#lightbox').length > 0){
-        $('#content').html('<img src="' + src + '" />');
-        $('#lightbox').show();
+    if($('#lightbox').length > 0){//if the lightbox tags alreadu exist in our webpage we dont need to add them again
+        $('#content').html('<img src="' + src + '" />');//Set the lightbox img tag the source of the image that was clicked
+        $('#lightbox').show();//Show the image
 
     } else {
-        $('#mid_content').append(lighthtml);
+        $('#mid_content').append(lighthtml);//if the lightbox html is not in the webpage append to the main content section
     };
 };
 
-function closelightbox(){
-    $('#lightbox').hide();
+function closelightbox(){//closes the lightbox
+    $('#lightbox').hide();//close the lightbox
 
 
 };
