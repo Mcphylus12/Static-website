@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en"> <!-- Lets browser knows we are using english as default in this webpage -->
 <head>
-    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" /><!-- Used for website validation -->
     <title>website content</title>
     <link rel="stylesheet" href="main.css" /><!-- add our main styling sheet -->
     <link rel="stylesheet" href="Attactions.css" /><!-- add sheet for the page -->
@@ -20,13 +20,13 @@
         </ul>
     </nav>
     <div id="mid_content"><!-- wrapper for the main content of the page -->
-        <div id="gmapblock">
+        <div id="gmapblock"><!-- wrapper for the google map as iframe do not like css formatting -->
             <iframe id="gmap" frameborder="0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyAt3OF07C_puXBDIi-CozmE5wUAQFqshPg&q=attractions+near+norwich">
                 Your Browser does not support google maps
-            </iframe>
+            </iframe><!-- iframe that uses the google map api to get the surrounding attractions. Does not function correctly on ie but this is an issue with google embed map api in general. Works on chrome PC and mobile -->
         </div>
-        <div class="halfblock">
-            <section>
+        <div class="halfblock"><!-- wrapper so I can set each section to display inline and the wont stack to the right of the map -->
+            <section><!--information on surrounding attractions in case google maps does not work or the user chooses not to use it-->
                 <header>
                     <h2>Restaruant</h2>
                 </header>
@@ -92,7 +92,7 @@
             </section>
         </div>
     </div>
-    <footer><!-- Footer comment stuff -->
+    <footer><!-- Footer content -->
     small business copyright stuff
     </footer>
     </div>

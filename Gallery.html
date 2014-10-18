@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en"> <!-- Lets browser knows we are using english as default in this webpage -->
 <head>
-    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" /><!-- Used for website validation -->
     <title>website content</title>
     <link rel="stylesheet" href="main.css" /><!-- add our styling sheet -->
     <link rel="stylesheet" href="Gallery.css" /><!-- add sheet for the gallery page -->
     <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
-    <script type="text/javascript" src="Gallery.js"></script>
+    <script type="text/javascript" src="Gallery.js"></script><!-- Include javascript files for the lightbox functionality -->
 </head>
 <body>
-    <div id="big_wrapper">
+    <div id="big_wrapper"> <!-- a wrapper used so we can leave margins on the sides -->
         <nav>
-            <ul> <!-- nav bar -->
+            <ul> <!-- navigation bar -->
                 <li><a href="Home.html">Home</a></li>
                 <li><a href="Gallery.html">Gallery</a></li>
                 <li><a href="Comments.html">Comments</a></li>
@@ -24,7 +24,8 @@
                 <h1>Gallery</h1>
                 <h4>click on an image to view it larger</h4>
                 <div id="scroll">
-                    <ul>
+                    <ul><!-- Each image calls the lightbox function on click and passes its own image element through as a parameter.
+                        The spans are captions -->
                         <li><img src="pics/House1.jpg" onclick="lightbox(this);" alt="image missing" /><span>The House</span></li>
                         <li><img src="pics/House2.jpg" onclick="lightbox(this);" alt="image missing" /><span>1st floor Balcony<br /> overlooking pool</span></li>
                         <li><img src="pics/House3.jpg" onclick="lightbox(this);" alt="image missing" /><span>Rear patio and pool</span></li>
@@ -40,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <footer><!-- Footer comment stuff -->
+        <footer><!-- Footer content -->
         small business copyright stuff
         </footer>
     </div>
