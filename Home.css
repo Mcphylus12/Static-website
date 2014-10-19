@@ -5,9 +5,9 @@
 
 .quarterblock{/* each block is set up to fit to a corner of the main content */
     width: 48%;
-    height: 40%;
+    min-width: 300px;/* if screen is too thin put descrition under image*/
     overflow: hidden;
-    display: inline-block
+    display: inline-block;
 }
 
 #main_image img{
@@ -17,7 +17,7 @@
     border-radius: 20px;
 }
 
-#top_comment{
+#desc{
     float: right;
     width: 100%;
 }

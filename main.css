@@ -91,6 +91,6 @@ footer{/* footer that sticks to bottom of the browser view */
     clear: both;
     bottom: 0;
     height: 3ex;
-    background-color: transparent;
+    background-color: #0f0f0f;
     color: white;
 }
