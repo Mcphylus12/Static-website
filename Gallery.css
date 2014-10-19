@@ -17,14 +17,15 @@
 #gallery #scroll{
     border: 1px solid black;
     overflow-x: scroll;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);/* use a black translucent background to make it look like the gallery is depressed into the webpage */
 }
 
 #gallery ul{
 
-    white-space: nowrap;
+    white-space: nowrap;/* the first 3 properties are used to keep the images in one line and go
+    offscreen rather than wrap to a new line */
     float: left;
-    margin-right: -999em; /*make elements ignore the line wrapping*/
+    margin-right: -999em;
     list-style: none;
 }
 
@@ -39,7 +40,7 @@
 
 #gallery img {
     border:0;
-    display: block;
+    display: block;/* put caption under image */
     border: 1px solid black;
     height: 100px;
 }
@@ -50,14 +51,14 @@
     overflow: hidden;
 }
 
-#lightbox {
-    position: fixed;
+#lightbox {/* The formatting for lightbox when it appear */
+    position: fixed; /* make the image appear over the rest of th webpage */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);/* darken the rest of the page */
 }
 
 #lightbox p{

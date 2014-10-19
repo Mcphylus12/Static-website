@@ -3,7 +3,7 @@
     display:block;
 }
 
-.quarterblock{
+.quarterblock{/* each block is set up to fit to a corner of the main content */
     width: 48%;
     height: 40%;
     overflow: hidden;
