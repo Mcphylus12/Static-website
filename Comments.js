@@ -22,9 +22,14 @@ function submitCom(){//saves the comment to localdisk or clears the local storag
     if(Comment_body === ''){//check the comment contains something
     alert('Your comment must contain something')
     }else{
-        setStorage('Comments',
-                   comhtml +
-                   getStorage('Comments'));//prepend the comment to the localstorage
+        if(getStorage('Comments') === "null"){//if Comments in localstorage are empty dont prepend the comment just set it
+            setStorage(comhtml);
+        } else {
+            setStorage('Comments',
+            comhtml +
+            getStorage('Comments'));//prepend the comment to the localstorage
+        };
+
         showCom();//reload the comments
     }
 
