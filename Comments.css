@@ -27,13 +27,14 @@
 }
 
 #comments section h4{
+    padding-left: 5px;
     text-align: left;
     padding: 5px 0;
     font-family: Tahoma;
     margin-bottom: 10px;
-    border-bottom: 1px solid black;
 }
 
 #comments section p{
-    text-align: left;;
+    text-indent: 2em;
+    text-align: left;
 }
