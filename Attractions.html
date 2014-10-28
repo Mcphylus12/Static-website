@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> <!-- Lets browser knows we are using english as default in this webpage -->
 <head>
-    <meta http-equiv="content-type" content="text/html" charset="utf-8" /><!-- Used for website validation -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/><!-- Used for website validation -->
     <title>website content</title>
     <link rel="stylesheet" href="main.css" /><!-- add our main styling sheet -->
     <link rel="stylesheet" href="Attactions.css" /><!-- add sheet for the page -->
@@ -19,7 +19,7 @@
     </nav>
     <div id="mid_content"><!-- wrapper for the main content of the page -->
         <div id="gmapblock"><!-- wrapper for the google map as iframe do not like css formatting -->
-            <iframe id="gmap" frameborder="0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyAt3OF07C_puXBDIi-CozmE5wUAQFqshPg&q=attractions+near+norwich">
+            <iframe id="gmap" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyAt3OF07C_puXBDIi-CozmE5wUAQFqshPg&amp;q=attractions+near+norwich">
                 Your Browser does not support google maps
             </iframe><!-- iframe that uses the google map api to get the surrounding attractions. Does not function correctly on ie but this is an issue with google embed map api in general. Works on chrome PC and mobile -->
         </div>
