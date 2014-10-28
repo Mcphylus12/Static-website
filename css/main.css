@@ -15,7 +15,7 @@ h2{
 
 body{
     text-align: center; /* keep our website centered */
-    background-image: url(bg.jpg);
+    background-image: url(../pics/bg.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: repeat-y;
