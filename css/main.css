@@ -94,3 +94,7 @@ footer{/* footer that sticks to bottom of the browser view */
     background-color: #0f0f0f;
     color: white;
 }
+
+footer p:after{
+    content:" Made By Kyle Alexander "
+}
