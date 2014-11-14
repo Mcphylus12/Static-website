@@ -1,6 +1,8 @@
-mcphylus12.github.io
+Static website
 ====================
+CMP-4011A Web-Based Programming
 
 Website asignment for web devlopment module.
-create a static website to advertise a rentable holiday home.
+Create a static website to advertise a rentable holiday home.
+
 Kyle Alexander
